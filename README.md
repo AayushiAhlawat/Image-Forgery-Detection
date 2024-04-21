@@ -1,12 +1,14 @@
 # Image Forgery Detection
 
-![Python](https://img.shields.io/badge/Python-3.7-blue.svg)
 
-## Overview
+  <img src="https://img.shields.io/badge/Python-3.7-blue.svg" alt="Python">
+
+
+## Overview 🔍
 
 In the project "Image Forgery Detection," I developed a robust system aimed at detecting Copy-Move forgery, a commonly employed technique in image manipulation. This README provides an overview of the project, including technical methodologies employed and impactful results achieved.
 
-### Objective
+### Objective 🎯
 
 The purpose of choosing this project is:
 
@@ -15,7 +17,7 @@ The purpose of choosing this project is:
 - **Validation:** Validate the originality of digital images by recovering information about their history.
 - **Trust Building:** Analyze images under specific conditions to build trust and genuineness.
 
-### Methodology
+### Methodology 🛠️
 
 The proposed system utilizes SVM classifier for forgery detection, employing hashing techniques and RSA key encryption for security. The methodology involves two main phases: training and testing.
 
@@ -36,16 +38,21 @@ The proposed system utilizes SVM classifier for forgery detection, employing has
    - **Hash Values Calculation:** Hash values are computed for the extracted features of the query image.
    - **SVM Classification:** SVM classifier is utilized to classify the query image based on the decision boundaries established during training.
 
-### Results
+### Results 📊
 
 - **High Accuracy:** Achieved a remarkable 95% accuracy rate in identifying forged images, showcasing the robustness and reliability of the detection algorithms.
 - **Effective Detection:** Successfully detected instances of Copy-Move forgery, a challenging form of image manipulation commonly employed to deceive viewers.
 
-## Getting Started
+
+## Getting Started 🚀
 
 To get started with the project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/your/repository.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the main script: `python main.py`
+
+### Conclusion 🎉
+
+The Image Forgery Detection project demonstrates the effectiveness of machine learning techniques, specifically SVM classifiers, in identifying instances of digital image forgery. With a focus on Copy-Move forgery, the system achieves high accuracy rates and provides a reliable solution for image authenticity verification.
 
