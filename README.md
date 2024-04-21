@@ -49,7 +49,7 @@ The proposed system utilizes SVM classifier for forgery detection, employing has
 To get started with the project, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/AayushiAhlawat/Image-Forgery-Detection.git`
-2. Run the main script: `python main.py`
+2. Run the main script: `python Implementation.py`
 
 ### Conclusion 🎉
 
