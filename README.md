@@ -1,7 +1,6 @@
 # Image Forgery Detection
 
 ![Python](https://img.shields.io/badge/Python-3.7-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 ## Overview
 
@@ -50,6 +49,3 @@ To get started with the project, follow these steps:
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the main script: `python main.py`
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
